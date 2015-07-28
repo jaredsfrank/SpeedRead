@@ -1,0 +1,13 @@
+{
+  "name": "SpeedRead",
+  "version": "0.0.1",
+  "main": "app.js",
+  "author": "Jared",
+  "dependencies": {
+    "cheerio": "latest",
+    "express": "latest",
+    "mustache": "^2.1.3",
+    "nunjucks": "^1.3.4",
+    "request": "latest"
+  }
+}

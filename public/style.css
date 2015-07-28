@@ -79,6 +79,10 @@ input{
 	height:2em;
 	position:absolute;
 }
+.article-title{
+	width:10em;
+	line-height: 1em;
+}
 
 .wpm{
 	float:right;

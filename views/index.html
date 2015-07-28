@@ -4,10 +4,11 @@
 	<meta name=viewport content="width=device-width,initial-scale=1">
 	<link rel=stylesheet href=style.css media=screen title="Primary Stylesheet" charset=utf-8>
 	<script src="jquery-2.1.4.min.js"></script>
-	<script src=app.js charset=utf-8></script>
+	<script src=main.js charset=utf-8></script>
 </head>
 <body>
 	<div class="container">
+		<p class="article-title"></p>
 		<div class="wordContainer">
 			<div class="grayFill">
 			</div>
@@ -28,13 +29,12 @@
 			<svg class="buttons" id="play" viewbox="0 0 100 100">
 				<use xlink:href = "img/play.svg#Layer_1"></use>
 			</svg>
+			<svg class="buttons" id="next" viewbox="0 0 100 100">
+				<use xlink:href = "img/forward.svg#Layer_1"></use>
+			</svg>
 			<p class="wpm">WPM</p>
 
 			<input type = "text" id = "speed" value="250"> 		
 		</form>
 	</div>
-	<form>
-		<textarea class="input" placeholder="Put Text Here..."></textarea></br>
-		<button type="button" id="submit">Submit</button>
-	</form>
 </body>
