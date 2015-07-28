@@ -1,0 +1,40 @@
+<!Doctype html>
+<head>
+	<title>Vocativ | Spritz</title>
+	<meta name=viewport content="width=device-width,initial-scale=1">
+	<link rel=stylesheet href=style.css media=screen title="Primary Stylesheet" charset=utf-8>
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src=app.js charset=utf-8></script>
+</head>
+<body>
+	<div class="container">
+		<div class="wordContainer">
+			<div class="grayFill">
+			</div>
+			<span class = "word">
+				<p class="prefix"></p>
+				<p class = "focus"></p>
+				 <svg class="lines">
+				  <line x1="0" y1="0" x2="0" y2=".4em" style="stroke:rgb(0,0,0);stroke-width:3" />
+				  <line x1="0" y1="1.6em" x2="0" y2="2em" style="stroke:rgb(0,0,0);stroke-width:3" />
+				</svg>
+				<p class = "suffix"></p>
+			</span>
+		</div>
+		<form class="controls">
+			<svg class="buttons" id="restart" viewbox="0 0 100 100">
+				<use xlink:href = "img/rewind.svg#Layer_1"></use>
+			</svg>
+			<svg class="buttons" id="play" viewbox="0 0 100 100">
+				<use xlink:href = "img/play.svg#Layer_1"></use>
+			</svg>
+			<p class="wpm">WPM</p>
+
+			<input type = "text" id = "speed" value="250"> 		
+		</form>
+	</div>
+	<form>
+		<textarea class="input" placeholder="Put Text Here..."></textarea></br>
+		<button type="button" id="submit">Submit</button>
+	</form>
+</body>

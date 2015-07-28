@@ -1,0 +1,97 @@
+.container{
+
+	font-size:20px;
+}
+
+p{
+	padding:0;
+	font-family: courier;
+	font-weight: bold;
+	margin:0;
+	display: inline-block;
+	text-align: center;
+	line-height: 2em;
+}
+.word{
+	height:2em;
+	position:relative;
+	width:100%;
+	text-align:left;
+	display:block;
+	margin: 0 auto;
+
+}
+.focus {
+	color: red;
+	margin-right:-4px;
+	width:.6em;
+}
+.wordContainer{
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	width: 10em;
+	height: 2em;
+}
+.prefix{
+	margin-right:-4px;
+	text-align: right;
+	width:2.5em;
+
+}
+.suffix{
+	text-align:left;
+}
+.controls{
+	width:10em;
+	margin-top: 10px;
+}
+
+.lines{
+	position: absolute;
+	width:2px;
+	height:2em;
+	margin-left:-.4em;
+}
+
+.buttons{
+	width:1.5em;
+	height:1.5em;
+}
+
+.buttons:hover{
+	opacity:.55;
+	cursor:pointer;
+}
+
+input{
+	width:2em;
+	float:right;
+	height:2em;
+	margin-top:.4em;
+	font-size: .5em;
+	text-align:center;
+}
+
+.grayFill{
+	z-index:-1;
+	background-color:lightgray;
+	width:0px;
+	height:2em;
+	position:absolute;
+}
+
+.wpm{
+	float:right;
+	line-height: 1.5em;
+	margin-left: 5px;
+}
+
+.input{
+	width:400px;
+	height:200px;
+}
+
+#submit{
+	width:100px;
+	height: 50px;
+}
